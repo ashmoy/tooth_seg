@@ -11,7 +11,7 @@ After selecting the folder with the volumes to process and the model that fit be
 
 ## DentalSegmentator model
 
-DentalSegmentator is based on nnU-Net framework. It has been trained on 470 dento-maxillo-facial CT and CBCT scans from 7 institutions by Dot G, et al, here is their paper and nnUnet paper:
+DentalSegmentator is based on nnU-Net framework. It has been trained on 470 dento-maxillo-facial CT and CBCT scans, and evaluated on a hold-out test dataset of 256 CT and CBCT scans from 7 institutions by Dot G, et al, here is their paper and nnUnet paper:
 
 >Dot G, et al. DentalSegmentator: robust open source deep learning-based CT and CBCT image segmentation. Journal of Dentistry (2024) doi:[10.1016/j.jdent.2024.105130](https://doi.org/10.1016/j.jdent.2024.105130)
 
@@ -19,7 +19,7 @@ DentalSegmentator is based on nnU-Net framework. It has been trained on 470 dent
 
 ## PediatricDentalSegmentator model
 
-As DentalSegmentator, PediatricDentalSegmentator is based on nnUnet too, It has been trained on 380 dento-maxillo-facial CBCT scans including scans withs primary teeths
+As DentalSegmentator, PediatricDentalSegmentator is based on nnUnet too, It has been trained on 513 dento-maxillo-facial CBCT scans including scans withs primary teeths and evaluated on a hold-out test dataset of 56 CT and CBCT scans
 
 
 ## Using the extension
